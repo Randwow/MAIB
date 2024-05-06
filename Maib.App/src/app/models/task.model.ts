@@ -4,8 +4,8 @@ export interface Task {
     description: string;
     priority: number;
     status: string;
-    createdOn: Date;
-    modifiedOn: Date;
+    createdOn: string;
+    modifiedOn: string;
   }
   
   

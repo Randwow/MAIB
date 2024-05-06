@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nichi\\OneDrive\\Рабочий стол\\MAIB\\Maib.API\\Maib.API.csproj": {}
+    "/Users/nikitamakeev/Desktop/MAIB/Maib.API/Maib.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nichi\\OneDrive\\Рабочий стол\\MAIB\\Maib.API\\Maib.API.csproj": {
+    "/Users/nikitamakeev/Desktop/MAIB/Maib.API/Maib.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nichi\\OneDrive\\Рабочий стол\\MAIB\\Maib.API\\Maib.API.csproj",
+        "projectUniqueName": "/Users/nikitamakeev/Desktop/MAIB/Maib.API/Maib.API.csproj",
         "projectName": "Maib.API",
-        "projectPath": "C:\\Users\\Nichi\\OneDrive\\Рабочий стол\\MAIB\\Maib.API\\Maib.API.csproj",
-        "packagesPath": "C:\\Users\\Nichi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nichi\\OneDrive\\Рабочий стол\\MAIB\\Maib.API\\obj\\",
+        "projectPath": "/Users/nikitamakeev/Desktop/MAIB/Maib.API/Maib.API.csproj",
+        "packagesPath": "/Users/nikitamakeev/.nuget/packages/",
+        "outputPath": "/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nichi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nikitamakeev/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

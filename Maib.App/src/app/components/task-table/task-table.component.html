@@ -1,32 +1,92 @@
 <form [formGroup]="newTaskForm" (ngSubmit)="createTask()" novalidate>
   <mat-form-field>
     <input matInput placeholder="Заголовок" formControlName="title" maxlength="100">
-    <mat-error *ngIf="newTaskForm.get('title')?.invalid && newTaskForm.get('title')?.touched">Заголовок обязателен и должен содержать не более 100 символов.</mat-error>
+    <mat-error *ngIf="newTaskForm.get('title')?.invalid && newTaskForm.get('title')?.touched">Заголовок обязателен и
+      должен содержать не более 100 символов.</mat-error>
   </mat-form-field>
   <mat-form-field>
     <input matInput placeholder="Описание" formControlName="description" maxlength="500">
-    <mat-error *ngIf="newTaskForm.get('description')?.invalid && newTaskForm.get('description')?.touched">Описание обязательно и должно содержать не более 500 символов.</mat-error>
+    <mat-error *ngIf="newTaskForm.get('description')?.invalid && newTaskForm.get('description')?.touched">Описание
+      обязательно и должно содержать не более 500 символов.</mat-error>
   </mat-form-field>
   <mat-form-field>
     <input matInput placeholder="Приоритет" formControlName="priority" type="number" min="1">
-    <mat-error *ngIf="newTaskForm.get('priority')?.invalid && newTaskForm.get('priority')?.touched">Приоритет обязателен и должен быть числом, большим или равным 1.</mat-error>
+    <mat-error *ngIf="newTaskForm.get('priority')?.invalid && newTaskForm.get('priority')?.touched">Приоритет обязателен
+      и должен быть числом, большим или равным 1.</mat-error>
   </mat-form-field>
   <mat-form-field>
-    <input matInput placeholder="Статус" formControlName="status">
-    <mat-error *ngIf="newTaskForm.get('status')?.invalid && newTaskForm.get('status')?.touched">Статус обязателен и должен быть одним из следующих: 'Новый', 'В процессе' или 'Завершен'.</mat-error>
+    <mat-label>Статус</mat-label>
+    <mat-select formControlName="status" matInput>
+      <mat-option value="новая">новая</mat-option>
+      <mat-option value="в процессе">в процессе</mat-option>
+      <mat-option value="завершена">завершена</mat-option>
+    </mat-select>
+    <mat-error *ngIf="newTaskForm.get('status')?.invalid && newTaskForm.get('status')?.touched">Статус обязателен и
+      должен быть одним из следующих: 'новая', 'в процессе' или 'завершена'.</mat-error>
   </mat-form-field>
+
+
   <button mat-raised-button type="submit" color="primary" [disabled]="newTaskForm.invalid">Добавить задачу</button>
 </form>
 
 
 
+<div class="mat-elevation-z8">
+  <mat-table [dataSource]="tasks">
+    <!-- ID Column -->
+    <ng-container matColumnDef="id">
+      <mat-header-cell *matHeaderCellDef>ID</mat-header-cell>
+      <mat-cell *matCellDef="let task">{{ task.id }}</mat-cell>
+    </ng-container>
 
-<mat-table [dataSource]="tasks" matSort>
-  <ng-container *ngFor="let column of displayedColumns" [matColumnDef]="column">
-    <mat-header-cell *matHeaderCellDef mat-sort-header> {{column}} </mat-header-cell>
-    <mat-cell *matCellDef="let task"> {{task[column]}} </mat-cell>
-  </ng-container>
+    <!-- Title Column -->
+    <ng-container matColumnDef="title">
+      <mat-header-cell *matHeaderCellDef>Название</mat-header-cell>
+      <mat-cell *matCellDef="let task">{{ task.title }}</mat-cell>
+    </ng-container>
 
-  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
-</mat-table>
+    <!-- Description Column -->
+    <ng-container matColumnDef="description">
+      <mat-header-cell *matHeaderCellDef>Описание</mat-header-cell>
+      <mat-cell *matCellDef="let task">{{ task.description }}</mat-cell>
+    </ng-container>
+
+    <!-- Priority Column -->
+    <ng-container matColumnDef="priority">
+      <mat-header-cell *matHeaderCellDef>Приоритет</mat-header-cell>
+      <mat-cell *matCellDef="let task">{{ task.priority }}</mat-cell>
+    </ng-container>
+
+    <!-- Status Column -->
+    <ng-container matColumnDef="status">
+      <mat-header-cell *matHeaderCellDef>Статус</mat-header-cell>
+      <mat-cell *matCellDef="let task">{{ task.status }}</mat-cell>
+    </ng-container>
+
+    <!-- Created Column -->
+    <ng-container matColumnDef="created">
+      <mat-header-cell *matHeaderCellDef>Создан</mat-header-cell>
+      <mat-cell *matCellDef="let task">{{ task.createdOn | date:'short' }}</mat-cell>
+    </ng-container>
+
+    <!-- Modified Column -->
+    <ng-container matColumnDef="modified">
+      <mat-header-cell *matHeaderCellDef>Изменен</mat-header-cell>
+      <mat-cell *matCellDef="let task">{{ task.modifiedOn | date:'short' }}</mat-cell>
+    </ng-container>
+
+    <!-- Actions Column -->
+    <ng-container matColumnDef="actions">
+      <mat-header-cell *matHeaderCellDef>Actions</mat-header-cell>
+      <mat-cell *matCellDef="let task">
+        <button mat-button (click)="openEditDialog(task)">Edit</button>
+        <button mat-button (click)="deleteTask(task)">Delete</button>
+      </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons aria-label="Select page of periodic elements">
+  </mat-paginator>
+</div>

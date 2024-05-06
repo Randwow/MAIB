@@ -25,7 +25,13 @@ public class Startup
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "ToDoAPI", Version = "v1" });
         });
-        services.AddCors();
+        services.AddCors(options =>
+        {
+        options.AddPolicy("AllowOrigin",
+            builder => builder.WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+        });
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -33,6 +39,7 @@ public class Startup
 
         if (env.IsDevelopment())
         {
+            app.UseCors("AllowOrigin");
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToDoAPI v1"));

@@ -1,0 +1,38 @@
+<h1 mat-dialog-title>Edit Task</h1>
+<div mat-dialog-content>
+  <form *ngIf="taskForm" [formGroup]="taskForm"> <!-- Добавляем *ngIf="taskForm" -->
+    <mat-form-field>
+      <input matInput formControlName="title" placeholder="Title">
+      <mat-error *ngIf="taskForm.get('title')?.invalid && taskForm.get('title')?.touched"> <!-- Добавляем "?" -->
+        Title is required.
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput formControlName="description" placeholder="Description">
+      <mat-error *ngIf="taskForm.get('description')?.invalid && taskForm.get('description')?.touched"> <!-- Добавляем "?" -->
+        Description is required.
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput formControlName="priority" type="number" placeholder="Priority">
+      <mat-error *ngIf="taskForm.get('priority')?.invalid && taskForm.get('priority')?.touched"> <!-- Добавляем "?" -->
+        Priority is required.
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Status</mat-label>
+      <mat-select formControlName="status">
+        <mat-option value="новая">новая</mat-option>
+        <mat-option value="в процессе">в процессе</mat-option>
+        <mat-option value="завершена">завершена</mat-option>
+      </mat-select>
+      <mat-error *ngIf="taskForm.get('status')?.invalid && taskForm.get('status')?.touched"> <!-- Добавляем "?" -->
+        Status is required.
+      </mat-error>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancelClick()">Cancel</button>
+  <button mat-button (click)="onSaveClick()">Save</button>
+</div>

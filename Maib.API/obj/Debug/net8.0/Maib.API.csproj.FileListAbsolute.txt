@@ -1,70 +1,141 @@
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\appsettings.json
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Maib.API.exe
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Maib.API.deps.json
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Maib.API.runtimeconfig.json
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Maib.API.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Maib.API.pdb
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Humanizer.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.csproj.AssemblyReference.cache
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.AssemblyInfoInputs.cache
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.AssemblyInfo.cs
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.csproj.CoreCompileInputs.cache
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\staticwebassets\msbuild.Maib.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Maib.API.props
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Maib.API.props
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Maib.API.props
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\scopedcss\bundle\Maib.API.styles.css
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.csproj.Up2Date
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\refint\Maib.API.dll
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.pdb
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\Maib.API.genruntimeconfig.cache
-C:\Users\Nichi\OneDrive\Рабочий стол\MAIB\Maib.API\obj\Debug\net8.0\ref\Maib.API.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/appsettings.json
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.exe
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.deps.json
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.runtimeconfig.json
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.pdb
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Humanizer.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Newtonsoft.Json.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/System.Drawing.Common.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/System.Runtime.Caching.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/System.Security.Permissions.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/System.Windows.Extensions.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.csproj.AssemblyReference.cache
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.AssemblyInfoInputs.cache
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.AssemblyInfo.cs
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.csproj.CoreCompileInputs.cache
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.Maib.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.build.Maib.API.props
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Maib.API.props
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Maib.API.props
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/scopedcss/bundle/Maib.API.styles.css
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.csproj.Up2Date
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/refint/Maib.API.dll
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.pdb
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.genruntimeconfig.cache
+C:/Users/Nichi/OneDrive/Рабочий стол/MAIB/Maib.API/obj/Debug/net8.0/ref/Maib.API.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/appsettings.Development.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/appsettings.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Maib.API
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.deps.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.runtimeconfig.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Maib.API.pdb
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Humanizer.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/System.Runtime.Caching.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.csproj.AssemblyReference.cache
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.AssemblyInfoInputs.cache
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.AssemblyInfo.cs
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.csproj.CoreCompileInputs.cache
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.sourcelink.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets.build.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets.development.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.Maib.API.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.build.Maib.API.props
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Maib.API.props
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Maib.API.props
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/scopedcss/bundle/Maib.API.styles.css
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.csproj.Up2Date
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/refint/Maib.API.dll
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.pdb
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/Maib.API.genruntimeconfig.cache
+/Users/nikitamakeev/Desktop/MAIB/Maib.API/obj/Debug/net8.0/ref/Maib.API.dll

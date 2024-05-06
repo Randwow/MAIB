@@ -8,23 +8,35 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSortModule } from '@angular/material/sort';
 import { MatButtonModule } from '@angular/material/button'; // Примерно добавьте другие модули, если вы их используете
-
+import { MatIconModule } from '@angular/material/icon';
+import { MatOptionModule } from '@angular/material/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TaskTableComponent } from './components/task-table/task-table.component'; // Подключаем ваш компонент
+import { MatSelectModule } from '@angular/material/select';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatDialogModule } from '@angular/material/dialog'; // Add MatDialogModule
+import { EditTaskDialogComponent } from './components/edit-task-dialog/edit-task-dialog.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    EditTaskDialogComponent,
     TaskTableComponent // Добавляем ваш компонент
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatPaginatorModule,
+    MatDialogModule,
     FormsModule, // Добавляем FormsModule
     ReactiveFormsModule, // Добавляем ReactiveFormsModule
     BrowserAnimationsModule,
+    MatIconModule,
+    MatOptionModule,
     HttpClientModule,
+    MatSelectModule,
     MatTableModule,
     MatInputModule,
     MatFormFieldModule,
