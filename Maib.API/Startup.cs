@@ -5,20 +5,21 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Maib.API.Models; 
 
 public class Startup
 {
+    private readonly IConfiguration _configuration;
+
     public Startup(IConfiguration configuration)
     {
-        Configuration = configuration;
+        _configuration = configuration;
     }
-
-    public IConfiguration Configuration { get; }
 
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddDbContext<TodoDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("TodoDbConnection")));
+            options.UseSqlServer(_configuration.GetConnectionString("TodoDbConnection")));
 
         services.AddControllers();
         services.AddSwaggerGen(c =>
@@ -27,22 +28,24 @@ public class Startup
         });
         services.AddCors(options =>
         {
-        options.AddPolicy("AllowOrigin",
-            builder => builder.WithOrigins("http://localhost:4200")
-            .AllowAnyMethod()
-            .AllowAnyHeader());
+            options.AddPolicy("AllowOrigin",
+                builder => builder.WithOrigins("http://localhost:4200")
+                .AllowAnyMethod()
+                .AllowAnyHeader());
         });
     }
 
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env, TodoDbContext dbContext)
     {
-
         if (env.IsDevelopment())
         {
             app.UseCors("AllowOrigin");
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToDoAPI v1"));
+
+            // Применяем миграции в режиме разработки
+            dbContext.Database.Migrate();
         }
         else
         {

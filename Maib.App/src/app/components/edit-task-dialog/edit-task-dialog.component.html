@@ -1,21 +1,24 @@
 <h1 mat-dialog-title>Edit Task</h1>
 <div mat-dialog-content>
-  <form *ngIf="taskForm" [formGroup]="taskForm"> <!-- Добавляем *ngIf="taskForm" -->
+  <form *ngIf="taskForm" [formGroup]="taskForm"> 
     <mat-form-field>
+      <mat-label>Title</mat-label>
       <input matInput formControlName="title" placeholder="Title">
-      <mat-error *ngIf="taskForm.get('title')?.invalid && taskForm.get('title')?.touched"> <!-- Добавляем "?" -->
+      <mat-error *ngIf="taskForm.get('title')?.invalid && taskForm.get('title')?.touched"> 
         Title is required.
       </mat-error>
     </mat-form-field>
-    <mat-form-field>
+    <mat-form-field style="margin-left: 10px;"> 
+      <mat-label>Description</mat-label>
       <input matInput formControlName="description" placeholder="Description">
-      <mat-error *ngIf="taskForm.get('description')?.invalid && taskForm.get('description')?.touched"> <!-- Добавляем "?" -->
+      <mat-error *ngIf="taskForm.get('description')?.invalid && taskForm.get('description')?.touched"> 
         Description is required.
       </mat-error>
     </mat-form-field>
-    <mat-form-field>
+    <mat-form-field style="margin-left: 10px;">
+      <mat-label>Priority</mat-label>
       <input matInput formControlName="priority" type="number" placeholder="Priority">
-      <mat-error *ngIf="taskForm.get('priority')?.invalid && taskForm.get('priority')?.touched"> <!-- Добавляем "?" -->
+      <mat-error *ngIf="taskForm.get('priority')?.invalid && taskForm.get('priority')?.touched"> 
         Priority is required.
       </mat-error>
     </mat-form-field>
@@ -26,7 +29,7 @@
         <mat-option value="в процессе">в процессе</mat-option>
         <mat-option value="завершена">завершена</mat-option>
       </mat-select>
-      <mat-error *ngIf="taskForm.get('status')?.invalid && taskForm.get('status')?.touched"> <!-- Добавляем "?" -->
+      <mat-error *ngIf="taskForm.get('status')?.invalid && taskForm.get('status')?.touched"> 
         Status is required.
       </mat-error>
     </mat-form-field>

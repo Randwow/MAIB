@@ -15,10 +15,10 @@ import { EditTaskDialogComponent } from '../edit-task-dialog/edit-task-dialog.co
 })
 export class TaskTableComponent implements OnInit {
   newTaskForm!: FormGroup;
-  tasks: MatTableDataSource<Task> = new MatTableDataSource<Task>([]); // Используем MatTableDataSource для хранения данных задач
+  tasks: MatTableDataSource<Task> = new MatTableDataSource<Task>([]); 
   displayedColumns: string[] = ['id', 'title', 'description', 'priority', 'status', 'created', 'modified', 'actions'];
 
-  @ViewChild(MatPaginator) paginator!: MatPaginator; // Используем ! для утверждения компилятору TypeScript
+  @ViewChild(MatPaginator) paginator!: MatPaginator; 
 
   constructor(private taskService: TaskService, private formBuilder: FormBuilder, private dialog: MatDialog) {}
 
@@ -29,13 +29,13 @@ export class TaskTableComponent implements OnInit {
   }
 
   ngAfterViewInit(): void {
-    this.tasks.paginator = this.paginator; // Устанавливаем paginator после отображения представления
+    this.tasks.paginator = this.paginator; 
   }
 
   loadTasks(): void {
     this.taskService.getTasks().subscribe(
       (data: Task[]) => {
-        this.tasks.data = data; // Устанавливаем данные задач для MatTableDataSource
+        this.tasks.data = data; 
       },
       (error) => {
         console.log(error);
@@ -46,7 +46,7 @@ export class TaskTableComponent implements OnInit {
   deleteTask(task: Task): void {
     this.taskService.deleteTask(task.id).subscribe(
       () => {
-        // После удаления задачи перезагружаем данные, чтобы обновить таблицу и пейджинг
+        
         this.loadTasks();
       },
       (error) => {
@@ -56,16 +56,13 @@ export class TaskTableComponent implements OnInit {
   }
 
   editTask(task: Task): void {
-    const updatedTask: Task = { ...task }; // Создаем копию объекта задачи для редактирования
-    // Здесь вы можете добавить логику для отображения формы редактирования задачи или использовать диалоговое окно
-    // После того, как пользователь внес изменения, обновляем задачу на сервере
+    const updatedTask: Task = { ...task }; 
     console.log(updatedTask);
     const currentDate = new Date();
     const formattedDate = currentDate.toISOString();
     updatedTask.modifiedOn = formattedDate;
     this.taskService.updateTask(updatedTask).subscribe(
       () => {
-        // Если редактирование прошло успешно, обновляем список задач
         this.loadTasks();
       },
       (error) => {
@@ -80,25 +77,18 @@ export class TaskTableComponent implements OnInit {
     if (this.newTaskForm.valid) {
       const newTask: Task = this.newTaskForm.value;
     
-      // Получаем текущую дату и преобразуем ее в строку формата ISO
       const currentDate = new Date();
       const formattedDate = currentDate.toISOString();
     
-      // Устанавливаем даты создания и изменения в формате ISO и обрамляем ковычками
       newTask.createdOn = formattedDate;
       newTask.modifiedOn = formattedDate;
     
       this.taskService.createTask(newTask).subscribe(
         (task: Task) => {
-          // Получаем текущие данные из MatTableDataSource
           const currentData = this.tasks.data;
-          // Добавляем новую задачу к текущим данным
           currentData.push(task);
-          // Устанавливаем обновленные данные в MatTableDataSource
           this.tasks.data = currentData;
-          // Очищаем форму после добавления задачи
           this.newTaskForm.reset();
-          // После добавления задачи, перезагружаем список задач
           this.loadTasks();
         },
         (error) => {

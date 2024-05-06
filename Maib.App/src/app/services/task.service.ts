@@ -11,7 +11,6 @@ export class TaskService {
 
   constructor(private http: HttpClient) { }
 
-  // Получение всех задач
   getTasks(): Observable<Task[]> {
     return this.http.get<Task[]>(this.apiUrl, {
         headers: new HttpHeaders({
@@ -20,7 +19,6 @@ export class TaskService {
     });
   }
 
-  // Получение одной задачи по ID
   getTaskById(id: number): Observable<Task> {
     const url = `${this.apiUrl}/${id}`;
     return this.http.get<Task>(url, {
@@ -30,7 +28,6 @@ export class TaskService {
         });
   }
 
-  // Создание новой задачи
   createTask(task: Task): Observable<Task> {
     console.log(task);
     return this.http.post<Task>(this.apiUrl, task, {
@@ -40,7 +37,6 @@ export class TaskService {
         });
   }
 
-  // Обновление задачи
   updateTask(task: Task): Observable<Task> {
     const url = `${this.apiUrl}/${task.id}`;
     return this.http.put<Task>(url, task, {
@@ -50,7 +46,6 @@ export class TaskService {
         });
   }
 
-  // Удаление задачи по ID
   deleteTask(id: number): Observable<void> {
     const url = `${this.apiUrl}/${id}`;
     return this.http.delete<void>(url,{

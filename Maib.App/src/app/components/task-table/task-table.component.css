@@ -1,1 +1,5 @@
-/* task.component.css */
+.table-container {
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -17,17 +17,38 @@ public class TasksController : ControllerBase
 
     // GET: api/tasks
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Task>>> GetTasks(string status = null)
+    public async Task<IActionResult> GetTasks(string status, string sortBy)
     {
-        IQueryable<Task> query = _context.Tasks;
+        IQueryable<Task> query = _dbContext.Tasks;
 
-        if (status != null)
+        if (!string.IsNullOrEmpty(status))
         {
-            query = query.Where(t => t.Status == status);
+            query = query.Where(t => t.Status.ToLower() == status.ToLower());
         }
 
-        return await query.ToListAsync();
+        if (!string.IsNullOrEmpty(sortBy))
+        {
+            switch (sortBy.ToLower())
+            {
+                case "priority":
+                    query = query.OrderBy(t => t.Priority);
+                    break;
+                case "createdon":
+                    query = query.OrderBy(t => t.CreatedOn);
+                    break;
+                case "modifiedon":
+                    query = query.OrderBy(t => t.ModifiedOn);
+                    break;
+                default:
+                    return BadRequest("Invalid sortBy parameter");
+            }
+        }
+
+        var tasks = await query.ToListAsync();
+
+        return Ok(tasks);
     }
+
 
     // GET: api/tasks/5
     [HttpGet("{id}")]
