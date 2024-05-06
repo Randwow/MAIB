@@ -1,0 +1,32 @@
+<form [formGroup]="newTaskForm" (ngSubmit)="createTask()" novalidate>
+  <mat-form-field>
+    <input matInput placeholder="Заголовок" formControlName="title" maxlength="100">
+    <mat-error *ngIf="newTaskForm.get('title')?.invalid && newTaskForm.get('title')?.touched">Заголовок обязателен и должен содержать не более 100 символов.</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Описание" formControlName="description" maxlength="500">
+    <mat-error *ngIf="newTaskForm.get('description')?.invalid && newTaskForm.get('description')?.touched">Описание обязательно и должно содержать не более 500 символов.</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Приоритет" formControlName="priority" type="number" min="1">
+    <mat-error *ngIf="newTaskForm.get('priority')?.invalid && newTaskForm.get('priority')?.touched">Приоритет обязателен и должен быть числом, большим или равным 1.</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Статус" formControlName="status">
+    <mat-error *ngIf="newTaskForm.get('status')?.invalid && newTaskForm.get('status')?.touched">Статус обязателен и должен быть одним из следующих: 'Новый', 'В процессе' или 'Завершен'.</mat-error>
+  </mat-form-field>
+  <button mat-raised-button type="submit" color="primary" [disabled]="newTaskForm.invalid">Добавить задачу</button>
+</form>
+
+
+
+
+<mat-table [dataSource]="tasks" matSort>
+  <ng-container *ngFor="let column of displayedColumns" [matColumnDef]="column">
+    <mat-header-cell *matHeaderCellDef mat-sort-header> {{column}} </mat-header-cell>
+    <mat-cell *matCellDef="let task"> {{task[column]}} </mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
