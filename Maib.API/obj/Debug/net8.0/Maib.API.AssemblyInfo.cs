@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maib.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d392d735c9c24a61fe640ffbb3c2f472b26bcec5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bcc2e7f60b9d38888e80e7d4aa69607282957e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maib.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maib.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

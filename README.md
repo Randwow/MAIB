@@ -82,6 +82,55 @@ docker run -e ASPNETCORE_ENVIRONMENT=Development -p 5150:8080 --network my-net m
 
 После чего можно проводить манипуляции 
 
+## Пример использования API с помощью curl 
+
+curl -X 'GET' \
+  'http://localhost:5150/api/Tasks?sortBy=createdon' \
+  -H 'accept: */*'
+
+Возвращает все таски сортированы по созданию изменяя createdon на modifiedon или priority сортировка произойдет по ним 
+
+curl -X 'GET' \
+  'http://localhost:5150/api/Tasks/2' \
+  -H 'accept: text/plain'
+
+Возвращает таск по ID 
+
+curl -X 'POST' \
+  'http://localhost:5150/api/Tasks' \
+  -H 'accept: text/plain' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "title": "Test 2",
+  "description": "Test 2",
+  "priority": 5,
+  "status": "новая",
+  "createdOn": "2024-05-07T08:24:21.169Z",
+  "modifiedOn": "2024-05-07T08:24:21.170Z"
+}'
+
+Создает таск по исходя из переданных полей ID пппередавать не нужно он выставляется в зависимости от количества созданных элементов 
+
+curl -X 'DELETE' \
+  'http://localhost:5150/api/Tasks/4' \
+  -H 'accept: */*' 
+
+Удаляет таск по заданному ID 
+
+curl -X 'PUT' \
+  'http://localhost:5150/api/Tasks/2' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "id": 2,
+  "title": "test test",
+  "description": "test",
+  "priority": 2,
+  "status": "завершена",
+  "modifiedOn": "2024-05-07T08:36:12.893Z"
+}'
+
+Изменяет таск по ID в зависимости от полей которые передали 
 
 ## Note
 Я также добавил файлы для создания кластера и сервисов в AWS, но не могу их запустить так как сильно влетел по костам в AWS :(((

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-
+using Maib.API.Models;
 public class Startup
 {
     private readonly IConfiguration _configuration;
@@ -25,6 +25,13 @@ public class Startup
         {
             c.SwaggerDoc("v1", new OpenApiInfo { Title = "ToDoAPI", Version = "v1" });
         });
+
+        services.AddLogging(builder =>
+        {
+            builder.AddConsole();
+            builder.AddDebug();
+        });
+
         services.AddCors(options =>
         {
             options.AddPolicy("AllowOrigin",
@@ -43,7 +50,6 @@ public class Startup
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ToDoAPI v1"));
 
-            // Применяем миграции в режиме разработки
             dbContext.Database.Migrate();
         }
         else
