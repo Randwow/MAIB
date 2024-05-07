@@ -20,7 +20,7 @@
 
 ### Настройка строки подключения
 Откройте файл `appsettings.json` в проекте API и убедитесь, что строка подключения к вашей базе данных указана правильно.
-Если запускать локально нужно поменять Server=sql_server_demo,1433 на локал хост, то что сейчас стоит это запуск с Docker 
+Если запускать локально нужно поменять Server=sql_server_demo,1433 на localhost,1433, то что сейчас стоит это запуск с Docker 
 ### Сборка и миграция базы данных
 1. Откройте командную строку в корневой директории проекта API.
 2. Выполните команды для восстановления зависимостей и сборки проекта:
@@ -33,7 +33,7 @@
 ## 3. Сборка и запуск UI
 
 Необходимо перейти в MAIB.App
-### Сборка и миграция базы данных
+### Сборка UI
 1. Откройте командную строку в корневой директории проекта App.
 2. Выполните команды для установки зависимостей и сборки проекта:
    ```bash
@@ -58,7 +58,7 @@ docker network create my-net
 Установить базу 
 docker pull mcr.microsoft.com/mssql/server:2019-latest
 Запустить имедж
-docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest --network my-net
+docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=reallyStrongPwd123' -p 1433:1433 --network my-net  mcr.microsoft.com/mssql/server:2019-latest 
 
 Теперь необходимо поменять connctionString на Server=sql_server_demo,1433;Database=TodoDb;User Id=sa;Password=reallyStrongPwd123;
 ### 2 Запустить UI 

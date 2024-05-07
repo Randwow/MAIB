@@ -16,38 +16,39 @@ public class TasksController : ControllerBase
     }
 
     // GET: api/tasks
-    [HttpGet]
-    public async Task<IActionResult> GetTasks(string status, string sortBy)
+[HttpGet]
+public async Task<IActionResult> GetTasks(string status = null, string sortBy = null)
+{
+    IQueryable<Task> query = _context.Tasks;
+
+    if (!string.IsNullOrEmpty(status))
     {
-        IQueryable<Task> query = _dbContext.Tasks;
-
-        if (!string.IsNullOrEmpty(status))
-        {
-            query = query.Where(t => t.Status.ToLower() == status.ToLower());
-        }
-
-        if (!string.IsNullOrEmpty(sortBy))
-        {
-            switch (sortBy.ToLower())
-            {
-                case "priority":
-                    query = query.OrderBy(t => t.Priority);
-                    break;
-                case "createdon":
-                    query = query.OrderBy(t => t.CreatedOn);
-                    break;
-                case "modifiedon":
-                    query = query.OrderBy(t => t.ModifiedOn);
-                    break;
-                default:
-                    return BadRequest("Invalid sortBy parameter");
-            }
-        }
-
-        var tasks = await query.ToListAsync();
-
-        return Ok(tasks);
+        query = query.Where(t => t.Status.ToLower() == status.ToLower());
     }
+
+    if (!string.IsNullOrEmpty(sortBy))
+    {
+        switch (sortBy.ToLower())
+        {
+            case "priority":
+                query = query.OrderBy(t => t.Priority);
+                break;
+            case "createdon":
+                query = query.OrderBy(t => t.CreatedOn);
+                break;
+            case "modifiedon":
+                query = query.OrderBy(t => t.ModifiedOn);
+                break;
+            default:
+                return BadRequest("Invalid sortBy parameter");
+        }
+    }
+
+    var tasks = await query.ToListAsync();
+
+    return Ok(tasks);
+}
+
 
 
     // GET: api/tasks/5
