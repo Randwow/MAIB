@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Импортируем FormsModule и ReactiveFormsModule
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSortModule } from '@angular/material/sort';
-import { MatButtonModule } from '@angular/material/button'; // Примерно добавьте другие модули, если вы их используете
+import { MatButtonModule } from '@angular/material/button'; 
 import { MatIconModule } from '@angular/material/icon';
 import { MatOptionModule } from '@angular/material/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TaskTableComponent } from './components/task-table/task-table.component'; // Подключаем ваш компонент
+import { TaskTableComponent } from './components/task-table/task-table.component'; 
 import { MatSelectModule } from '@angular/material/select';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatDialogModule } from '@angular/material/dialog'; // Add MatDialogModule
+import { MatDialogModule } from '@angular/material/dialog'; 
 import { EditTaskDialogComponent } from './components/edit-task-dialog/edit-task-dialog.component';
 
 
@@ -23,15 +23,15 @@ import { EditTaskDialogComponent } from './components/edit-task-dialog/edit-task
   declarations: [
     AppComponent,
     EditTaskDialogComponent,
-    TaskTableComponent // Добавляем ваш компонент
+    TaskTableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatPaginatorModule,
     MatDialogModule,
-    FormsModule, // Добавляем FormsModule
-    ReactiveFormsModule, // Добавляем ReactiveFormsModule
+    FormsModule, 
+    ReactiveFormsModule, 
     BrowserAnimationsModule,
     MatIconModule,
     MatOptionModule,
@@ -41,7 +41,7 @@ import { EditTaskDialogComponent } from './components/edit-task-dialog/edit-task
     MatInputModule,
     MatFormFieldModule,
     MatSortModule,
-    MatButtonModule // Примерно добавьте другие модули, если вы их используете
+    MatButtonModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
